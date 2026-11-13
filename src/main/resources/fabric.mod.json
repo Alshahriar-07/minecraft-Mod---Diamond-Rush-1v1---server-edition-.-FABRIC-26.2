@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "diamondrush",
+  "version": "${version}",
+  "name": "Diamond Rush 1v1",
+  "description": "Competitive 1v1 diamond mining tournaments for dedicated Minecraft servers. Best-of-5, fully server authoritative, with a custom client GUI.",
+  "authors": [
+    "Diamond Rush Team"
+  ],
+  "contact": {
+    "homepage": "https://example.com/diamondrush",
+    "sources": "https://example.com/diamondrush/source"
+  },
+  "license": "MIT",
+  "icon": "assets/diamondrush/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.diamondrush.DiamondRushMod"
+    ],
+    "client": [
+      "com.diamondrush.client.DiamondRushClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": ">=${fabric_api_version}"
+  }
+}

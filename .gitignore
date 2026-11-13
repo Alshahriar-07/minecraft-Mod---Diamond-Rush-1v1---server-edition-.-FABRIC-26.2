@@ -1,0 +1,36 @@
+# Gradle
+.gradle/
+.gradle-client2/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Fabric Loom run directories
+run/
+run2/
+logs/
+*.log
+
+# Local test server (world, libraries, downloaded jars)
+server-test/
+
+# IDE / editor
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.settings/
+.classpath
+.project
+
+# Local dev tooling: keep the helper scripts, ignore downloaded binaries
+tools/*
+!tools/rcon.py
+!tools/drive_client.py
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+release/
+.git/
